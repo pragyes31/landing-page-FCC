@@ -21,10 +21,18 @@ body {
   /* position: fixed; */
 }
 
+.products-list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .product {
-  max-width: 250px;
-  height: 300px;
+  width: 250px;
+  height: 350px;
   border: 2px solid black;
+  text-align: center;
 }
 
 .product-heading {
@@ -41,12 +49,26 @@ body {
 
 .pricing {
   height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-top: 20px;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 20px;
+}
+
+.features {
+  margin-top: 15px;
+}
+
+.purchase {
+  height: 35px;
+  width: 120px;
+  background-color: aquamarine;
+  border: none;
+  margin-top: 30px;
+  border: 1px solid #000;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
 }
 
 @media (max-width: 600px) {
@@ -59,5 +81,8 @@ body {
     height: 100px;
     flex-direction: column;
     justify-content: space-around;
+  }
+  .products-list {
+    flex-direction: column;
   }
 }
