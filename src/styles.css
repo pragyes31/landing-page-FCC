@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap");
 body {
   margin: 0px;
   padding: 0px;
@@ -17,6 +18,24 @@ body {
   display: flex;
   align-items: space-between;
   /* position: fixed; */
+}
+
+.product {
+  max-width: 250px;
+  height: 300px;
+  border: 2px solid black;
+}
+
+.product-heading {
+  height: 40px;
+  background-color: #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Roboto Slab", serif;
 }
 
 @media (max-width: 600px) {
