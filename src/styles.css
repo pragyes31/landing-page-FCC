@@ -10,15 +10,32 @@ body {
 }
 
 #header {
-  background-color: aquamarine;
+  background-color: #464159;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
 }
 
 #header-img {
   display: inline-block;
   vertical-align: middle;
+}
+
+#nav-bar > a {
+  padding: 15px;
+  text-decoration: none;
+  color: #c7f0db;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+#nav-bar > a:hover {
+  background-color: #fff;
+  color: #000;
 }
 
 .buffer {
@@ -105,13 +122,23 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+  }
+
+  #nav-bar > a {
+    display: block;
+    text-align: center;
+  }
+
+  #nav-bar > a:hover {
+    width: 100%;
   }
 
   .products-list {
     flex-direction: column;
   }
   .buffer {
-    height: 150px;
+    height: 200px;
   }
   .video-frame {
     width: 100%;
