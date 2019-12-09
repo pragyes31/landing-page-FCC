@@ -42,6 +42,21 @@ body {
   height: 50px;
 }
 
+#email {
+  width: 15rem;
+  height: 1.8rem;
+  border: 1px solid #6c7b95;
+  border-radius: 1rem;
+}
+
+#submit {
+  width: 7rem;
+  height: 1.8rem;
+  border: 1px solid #6c7b95;
+  border-radius: 1rem;
+  background-color: #c7f0db;
+}
+
 .video {
   position: relative;
   padding-bottom: 56.25%;
