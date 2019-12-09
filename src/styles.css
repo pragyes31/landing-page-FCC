@@ -10,36 +10,15 @@ body {
 }
 
 #header {
+  background-color: aquamarine;
   display: flex;
-  justify-content: space-around;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: auto;
-  z-index: 2;
-  background-color: red;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.image-box {
-  display: flex;
-}
-
-.header-img {
-  background-color: #eee;
-}
-
-#nav-bar {
-  display: flex;
-  align-items: space-between;
-}
-
-#nav-bar > a {
-  text-decoration: none;
-}
-
-#nav-bar > a:hover {
-  background-color: #ddd;
+#header-img {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .buffer {
@@ -115,17 +94,19 @@ body {
 
 @media (max-width: 600px) {
   #header {
-    display: block;
-    text-align: center;
-    background-color: #eee;
+    flex-direction: column;
   }
+
+  #header-img {
+    margin-bottom: 10px;
+  }
+
   #nav-bar {
     display: flex;
-    height: 100px;
     flex-direction: column;
-    justify-content: space-around;
-    background-color: #eee;
+    align-items: center;
   }
+
   .products-list {
     flex-direction: column;
   }
@@ -137,3 +118,53 @@ body {
     height: 100%;
   }
 }
+
+/* #header {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 2;
+  background-color: red;
+  height: 50px;
+}
+
+#nav-bar {
+  background-color: blue;
+}
+
+#nav-bar > a {
+  text-decoration: none;
+  color: #33edfd;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+}
+
+#nav-bar > a:hover {
+  background-color: #ddd;
+} */
+
+/* Responsive css below */
+
+/* #header {
+    display: block;
+    text-align: center;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+  }
+  #nav-bar {
+    display: flex;
+    background-color: red;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-box {
+    justify-content: center;
+    margin-top: 10px;
+  } */
