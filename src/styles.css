@@ -34,7 +34,7 @@ body {
 }
 
 #nav-bar > a:hover {
-  background-color: #fff;
+  background-color: #eee;
   color: #000;
 }
 
@@ -164,6 +164,7 @@ body {
   .products-list {
     flex-direction: column;
   }
+
   .buffer {
     height: 200px;
   }
@@ -181,6 +182,7 @@ body {
   .video-frame {
     width: 100%;
     height: 100%;
+    margin: 15px;
   }
 }
 
