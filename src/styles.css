@@ -123,6 +123,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 25px;
 }
 
 .product {
@@ -211,13 +212,17 @@ body {
   .feature {
     flex-direction: column;
     text-align: center;
-    margin: 10px 10px;
+    margin: 20px 10px;
   }
 
   .feature-image {
     width: 100%;
-    margin: 0px;
-    padding: 0px;
+    margin-bottom: -10px;
+  }
+
+  .feature-heading {
+    width: 100%;
+    text-align: center;
   }
 
   .video-frame {
@@ -226,53 +231,3 @@ body {
     margin: 15px;
   }
 }
-
-/* #header {
-  display: flex;
-  justify-content: space-around;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: auto;
-  z-index: 2;
-  background-color: red;
-  height: 50px;
-}
-
-#nav-bar {
-  background-color: blue;
-}
-
-#nav-bar > a {
-  text-decoration: none;
-  color: #33edfd;
-  font-family: "Roboto Slab", serif;
-  font-weight: bold;
-}
-
-#nav-bar > a:hover {
-  background-color: #ddd;
-} */
-
-/* Responsive css below */
-
-/* #header {
-    display: block;
-    text-align: center;
-    background-color: red;
-    display: flex;
-    flex-direction: column;
-  }
-  #nav-bar {
-    display: flex;
-    background-color: red;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .image-box {
-    justify-content: center;
-    margin-top: 10px;
-  } */
