@@ -82,7 +82,22 @@ body {
 }
 
 .feature {
+  max-width: 600px;
   display: flex;
+}
+
+.feature-image {
+  width: 150px;
+  text-align: center;
+}
+
+.feature-heading {
+  width: 450px;
+  margin: 0px;
+}
+
+.feature-description {
+  margin: 0px;
 }
 
 .video {
