@@ -79,11 +79,13 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 20px;
 }
 
 .feature {
   max-width: 600px;
   display: flex;
+  margin-bottom: 25px;
 }
 
 .feature-image {
@@ -151,10 +153,6 @@ body {
   font-size: 20px;
 }
 
-.features {
-  margin-top: 20px;
-}
-
 .purchase {
   height: 35px;
   width: 120px;
@@ -213,11 +211,13 @@ body {
   .feature {
     flex-direction: column;
     text-align: center;
-    margin: 0px 10px;
+    margin: 10px 10px;
   }
 
   .feature-image {
     width: 100%;
+    margin: 0px;
+    padding: 0px;
   }
 
   .video-frame {
