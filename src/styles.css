@@ -22,6 +22,7 @@ body {
 #header-img {
   display: inline-block;
   vertical-align: middle;
+  padding: 0.6rem;
 }
 
 #nav-bar > a {
@@ -39,7 +40,7 @@ body {
 }
 
 .buffer {
-  height: 50px;
+  height: 75px;
 }
 
 #subscribe-form {
@@ -57,16 +58,17 @@ body {
 
 #submit {
   width: 7rem;
-  height: 1.8rem;
+  height: 1.9rem;
   border: 1px solid #6c7b95;
   border-radius: 0.8rem;
-  background-color: #c7f0db;
+  background-color: #464159;
   cursor: pointer;
+  color: #c7f0db;
 }
 
 #submit:hover {
-  background-color: #464159;
-  color: #fff;
+  background-color: #eee;
+  color: #000;
 }
 
 .video {
@@ -166,7 +168,7 @@ body {
   }
 
   .buffer {
-    height: 200px;
+    height: 225px;
   }
 
   #subscribe-form {
