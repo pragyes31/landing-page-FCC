@@ -104,14 +104,12 @@ body {
 
 .video {
   position: relative;
-  padding-bottom: 56.25%;
   display: flex;
   justify-content: center;
   width: 100%;
 }
 
 .video-frame {
-  position: absolute;
   width: 600px;
   height: 350px;
   background: teal;
@@ -225,9 +223,14 @@ body {
     text-align: center;
   }
 
+  .video {
+    padding-bottom: 56.25%;
+  }
+
   .video-frame {
     width: 100%;
     height: 100%;
     margin: 15px;
+    position: absolute;
   }
 }
