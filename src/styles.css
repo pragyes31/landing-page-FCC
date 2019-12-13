@@ -64,14 +64,12 @@ body {
   cursor: pointer;
   background-color: #464159;
   color: #c7f0db;
-  background-color: #eee;
-  color: #000;
   font-size: 0.8rem;
 }
 
 #submit:hover {
-  background-color: #464159;
-  color: #c7f0db;
+  background-color: #eee;
+  color: #000;
 }
 
 .features {
@@ -134,7 +132,7 @@ body {
 
 .product-heading {
   height: 40px;
-  background-color: #ddd;
+  background-color: #6c7b95;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -155,13 +153,20 @@ body {
 .purchase {
   height: 35px;
   width: 120px;
-  background-color: aquamarine;
+  cursor: pointer;
+  background-color: #464159;
+  color: #c7f0db;
   border: none;
   margin-top: 30px;
   border: 1px solid #000;
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 28px;
+}
+
+.purchase:hover {
+  background-color: #eee;
+  color: #000;
 }
 
 @media (max-width: 600px) {
