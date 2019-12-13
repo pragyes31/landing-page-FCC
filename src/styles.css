@@ -81,7 +81,7 @@ body {
 }
 
 .feature {
-  max-width: 600px;
+  max-width: 800px;
   display: flex;
   margin-bottom: 25px;
 }
@@ -175,6 +175,28 @@ footer {
   height: 50px;
   background-color: #ddd;
   text-align: right;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.footer-links {
+  margin-right: 20px;
+}
+
+.logo-credits {
+  margin-right: 20px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #000;
+  margin-left: 10px;
+}
+
+.logo-credits > a {
+  color: #444;
 }
 
 @media (max-width: 600px) {
